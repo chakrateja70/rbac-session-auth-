@@ -1,0 +1,42 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.dashboard-container h3 {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dashboard-container h2 {
+    font-size: 26px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.dashboard-container p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(194, 9, 9)
+}
+
+.dashboard-container button {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(148, 75, 221);
+    color: white;
+    font-weight: bold;
+}
+.dashboard-container button:hover {
+    cursor: pointer;
+}

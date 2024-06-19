@@ -1,0 +1,14 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-image: radial-gradient(rgb(30, 182, 215), rgb(30, 91, 214));
+    margin-bottom: 50px;
+}
+.link-item {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto";
+}
